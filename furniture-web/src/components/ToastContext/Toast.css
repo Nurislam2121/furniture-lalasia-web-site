@@ -1,0 +1,25 @@
+.toast-stack {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.toast-container {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    min-width: 280px;
+    animation: slideIn 0.3s ease-out;
+    gap: 5px;
+}
+
+.toast-text {
+    color: var(--text-color);
+}

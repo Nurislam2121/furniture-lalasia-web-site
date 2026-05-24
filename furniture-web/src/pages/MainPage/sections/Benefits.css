@@ -1,0 +1,38 @@
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.benefits-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; 
+    gap: 40px;
+}
+
+.benefits-title-container {
+    max-width: 530px;
+}
+
+.benefits-title-container h2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #151411;
+}
+
+.benefits-description {
+    max-width: 450px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #AFADB5;
+    margin: 0;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}

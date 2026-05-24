@@ -1,0 +1,15 @@
+.services-header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.services-desc {
+    max-width: 550px;
+}
+
+.services-header img {
+    width: 100%;
+}

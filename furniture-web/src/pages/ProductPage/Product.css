@@ -1,0 +1,135 @@
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.page-header p {
+    max-width: 600px;
+}
+
+.search-filter {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-product {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.total-product span {
+    color: #518581;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+    margin-bottom: 60px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.page-number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.page-number.active {
+    background-color: #518581;
+    color: white;
+    border-color: #518581;
+}
+
+.page-arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.page-arrow:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.custom-select-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.select-icon {
+    position: absolute;
+    left: 48px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.filter-btn, .sort-btn {
+    appearance: none; 
+    display: flex;
+    align-items: center;
+    gap: 12px;    
+    padding: 20px 48px 20px 92px; 
+    background-color: #ffffff;
+    border: 1px solid transparent;      
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.filter-btn:hover, .sort-btn:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.btn-icon {
+    width: 32px;
+    object-fit: contain;
+}
+
+option {
+    padding: 10px;
+    background: white;
+    color: black;
+}

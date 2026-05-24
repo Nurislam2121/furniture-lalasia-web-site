@@ -1,0 +1,14 @@
+.info-card {
+    padding: 26px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-card img {
+    padding: 16px;
+    background-color: var(--bg-color);
+    width: 62px;
+    border-radius: 50%;
+}

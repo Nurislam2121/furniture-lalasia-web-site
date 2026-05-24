@@ -1,0 +1,10 @@
+.service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.service-number {
+    color: var(--primary-color);
+}
